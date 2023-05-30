@@ -18,7 +18,7 @@ Example for a print statement:
 
 `print(FancyText.red("This Text will be Red"))`
 
-On this initial release FancyText Contains the basic EGA colours
+On this initial release FancyText Contains the basic EGA colours: <br>
 Black, Dark Blue, Dark Green, Dark Cyan, Dark Red, Dark Magenta, Brown, Light Gray, Dark Gray, Light Blue, Light Green, Light Cyan, Light Red, Light Magenta, Yellow, White
 
 Plus Some special Text modes (More will be added on future updates)
