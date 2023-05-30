@@ -1,7 +1,7 @@
 # Fancy Text
-<p>A simple class that uses UNICODE escape sequences to print the Python's Terminal Output text in colour without adding any (non build-in) libraris imports to your code.<br>
-also adds the functionality to print the desired text as UNICODE/ASCII blocks (work in progress)<br>
-It provides a simpler and cleanear way to use colour and text effects in your program, while contributing to mantain code readability <br>
+<p>A simple class that utilizes UNICODE escape sequences to print text in Python's Terminal Output with colors, without requiring any non-built-in library imports in your code.<br>
+It also includes the functionality to print text as UNICODE/ASCII blocks (work in progress).<br>
+This class provides a simpler and cleaner approach to incorporating color and text effects into your program while ensuring code readability is maintained.</p>
 
 ### Basic Setup / Usage
 
@@ -42,16 +42,14 @@ Plus Some special Text Colour modes (More will be added on future updates)
 
 I've Also implemented a Dictionary sorting to transform Text into ASCII Blocks, this allows to convert normal text to:
 ```
-
- █████  ███████  ██████ ██ ██     ████████ ███████ ██   ██ ████████ 
-██   ██ ██      ██      ██ ██        ██    ██       ██ ██     ██    
-███████ ███████ ██      ██ ██        ██    █████     ███      ██    
-██   ██      ██ ██      ██ ██        ██    ██       ██ ██     ██    
-██   ██ ███████  ██████ ██ ██        ██    ███████ ██   ██    ██    
-                                                                    
+██    ██ ███    ██ ██  ██████  ██████  ██████  ███████     ██████  ██       ██████   ██████ ██   ██ ███████ 
+██    ██ ████   ██ ██ ██      ██    ██ ██   ██ ██          ██   ██ ██      ██    ██ ██      ██  ██  ██      
+██    ██ ██ ██  ██ ██ ██      ██    ██ ██   ██ █████       ██████  ██      ██    ██ ██      █████   ███████ 
+██    ██ ██  ██ ██ ██ ██      ██    ██ ██   ██ ██          ██   ██ ██      ██    ██ ██      ██  ██       ██ 
+ ██████  ██   ████ ██  ██████  ██████  ██████  ███████     ██████  ███████  ██████   ██████ ██   ██ ███████ 
 ```
 
-Special ASCII Text Block Options (5 lines per letter, Creates Big Letters from the text provided)
+Special ASCII/UNICODE Text Block Options (5 lines per letter, Creates Big Letters from the text provided)
 
 * big_letter_from_letter -  ...Made out of each letter given
 * Unicode-Blocks         -  ...Made out of ██ Blocks  
@@ -63,7 +61,7 @@ This is the initial Release, new features will be added in the future.
 ### Version History
 
 * 0.06 Added UNICODE BLOCK ██ letters from text 
-* 0.05 Added ASCII transforms for text (Big letter made of the letter)
+* 0.05 Added Big Letter of the Letter transform for text 
 * 0.04 Added Toggle Text (and lower start version)
 * 0.03 Text is now printed in Bold, Added Rainbow Background function, Removed Confirm Text to make a better implementation
 * 0.02 Added Rainbow_text colour option, Fixed bug with warning_text function
