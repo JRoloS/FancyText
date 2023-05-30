@@ -101,12 +101,12 @@ class FancyText:
 
     @staticmethod
     def warning_text(text):  # Red Background, White Text  --- "Warning Message"
-        result = FancyText.colorize(text, '38;37;41')
+        result = FancyText.colorize(text, '1;37;41')
         return result
 
     @staticmethod
     def deletion_text(text):  # Yellow Background, Red Text  --- "Deletion Message"
-        result = FancyText.colorize(text, '1;31;43m')
+        result = FancyText.colorize(text, '1;31;43')
         return result
     
     @staticmethod
@@ -115,4 +115,21 @@ class FancyText:
         addedtext = FancyText.colorize(' [Cancel to Abort]', '38;5;208')
         return (result + addedtext)
     
+    
+        # Rainbow Color
+    @staticmethod
+    def rainbow_text(text):
+        colors = ['31', '32', '33', '34', '35', '36']  # Red, Green, Yellow, Blue, Magenta, Cyan
+        rainbow_text = ''
+
+        for i, letter in enumerate(text):
+            color_code = colors[i % len(colors)]
+            colored_letter = FancyText.colorize(letter, color_code)
+            rainbow_text += colored_letter
+
+        return rainbow_text
+
+
+    
 # End of Class
+

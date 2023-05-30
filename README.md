@@ -23,34 +23,27 @@ Black, Dark Blue, Dark Green, Dark Cyan, Dark Red, Dark Magenta, Brown, Light Gr
 
 Plus Some special Text modes (More will be added on future updates)
 
-* success_text   - Blue text with Green Background        ---  "Accepted Message"
-* selection_text - Bold Yellow text on Black Background   --- "Selection Message"
-* warning_text   - White Text on Red Background           --- "Warning Message"
-* deletion_text  - Red Text on Yellow Background          --- "Deletion Message"
-* confirm_text   - Bright white text, adds [Cancel to Abort] in Orange at the end
+* success_text   - Blue text with Green Background                                 --- "Accepted Message"
+* selection_text - Bold Yellow text on Black Background                            --- "Selection Message"
+* warning_text   - White Text on Red Background                                    --- "Warning Message"
+* deletion_text  - Red Text on Yellow Background                                   --- "Deletion Message"
+* confirm_text   - Bright white text, adds [Cancel to Abort] in Orange at the end  --- "Confirm Text"
+* rainbow_text   - Each letter will be printed on a different colour               --- "Rainbow Text"
+
+![Special Text](docs/special_text.png)
 
 You can check the colour options by typing Fancytext. and the autocomplete will show you all the available colours
 
 This is the initial Release, new features will be added in the future.
 
-
-
 ### Version History
 
+* 0.02 Added Rainbow_text colour option, Fixed bug with warning_text function
 * 0.01 Initial Release - Class Created.
 
 
 Author:
 * [Jorge Rolo](https://github.com/JRoloS)
-
-
-
-
-
-
-
-
-
 
 
 ### License: 
