@@ -1,8 +1,8 @@
 # Fancy Text
-<p>A simple class that uses ANSI escape sequences to print Python Terminal Output text in colour without adding any imports to your code.<br>
+<p>A simple class that uses ANSI escape sequences to print Python Terminal Output text in colour without adding any library imports to your code.<br>
 It provides a simple and clean way to use color codes, allowing for easy invocation of colour options and contributing to code cleanlines<br>
 
-### Usage
+### Basic Setup / Usage
 
 Copy the FancyText.py file to your project directory and import it as follows:<br>
 `from FancyText Import *`
@@ -18,7 +18,7 @@ Example for a print statement:
 
 `print(FancyText.red("This Text will be Red"))`
 
-On this initial release FancyText Contains the basic EGA colours
+On this initial release FancyText Contains the basic EGA colours: <br>
 Black, Dark Blue, Dark Green, Dark Cyan, Dark Red, Dark Magenta, Brown, Light Gray, Dark Gray, Light Blue, Light Green, Light Cyan, Light Red, Light Magenta, Yellow, White
 
 Plus Some special Text modes (More will be added on future updates)
