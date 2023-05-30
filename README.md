@@ -1,8 +1,8 @@
 # Fancy Text
-<p>A simple class that uses ANSI escape sequences to print Python Terminal Output text in colour without adding any imports to your code.<br>
+<p>A simple class that uses ANSI escape sequences to print Python Terminal Output text in colour without adding any library imports to your code.<br>
 It provides a simple and clean way to use color codes, allowing for easy invocation of colour options and contributing to code cleanlines<br>
 
-### Usage
+### Basic Setup / Usage
 
 Copy the FancyText.py file to your project directory and import it as follows:<br>
 `from FancyText Import *`
