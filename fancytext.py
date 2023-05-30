@@ -1,3 +1,5 @@
+# FancyText Class 
+
 class FancyText:
     @staticmethod
     def colorize(text, color_code):
