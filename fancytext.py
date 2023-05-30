@@ -112,3 +112,5 @@ class FancyText:
         result = FancyText.colorize(text, '38;5;231')
         addedtext = FancyText.colorize(' [Cancel to Abort]', '38;5;208')
         return (result + addedtext)
+    
+# End of Class
