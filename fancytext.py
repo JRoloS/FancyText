@@ -800,4 +800,56 @@ class FancyText:
         return '\n'.join(lines)
 
 
+
+#### EMOJIS
+    class Emojis():
+        @staticmethod
+        def bearflip():
+            return "ʕノ•ᴥ•ʔノ ︵ ┻━┻"
+
+        @staticmethod
+        def shrug():
+            return "¯\_(ツ)_/¯"
+
+        @staticmethod
+        def wtf():
+            return "(⊙＿⊙')"
+
+        @staticmethod
+        def bear_face():
+            return "ʕ•ᴥ•ʔ"
+
+        @staticmethod
+        def smirking_face():
+            return "(¬‿¬)"
+
+        @staticmethod
+        def determined_face():
+            return "(•̀ᴗ•́)و ̑̑"
+
+        @staticmethod
+        def fighting_face():
+            return "(ง •̀_•́)ง"
+
+        @staticmethod
+        def suspicious_face():
+            return "(¬_¬\")"
+
+        @staticmethod
+        def love():
+            return "(っ◔◡◔)っ ♥"
+
+        @staticmethod
+        def cat_face():
+            return "(っ˘ω˘ς )"
+
+        @staticmethod
+        def disapproval_face():
+            return "ಠ_ಠ"
+
+        @staticmethod
+        def lenny_face():
+            return "( ͡° ͜ʖ ͡°)"
+
+
 # End of Class

@@ -54,18 +54,27 @@ Special ASCII/UNICODE Text Block Options (5 lines per letter, Creates Big Letter
 * big_letter_from_letter -  ...Made out of each letter given
 * Unicode-Blocks         -  ...Made out of ██ Blocks  
 
+As Well as a Sub class Called Emojis that allows you to print ASCII Art like this one: ʕノ•ᴥ•ʔノ ︵ ┻━┻ 
+
+Can be called by typing FancyText.Emojis. (your pick)
+
 You can check the by typing Fancytext. and the autocomplete will show you all the available options
 
 This is the initial Release, new features will be added in the future.
 
 ### Version History
 
+* 0.07 Added ASCII Emojis Class
 * 0.06 Added UNICODE BLOCK ██ letters from text 
 * 0.05 Added Big Letter of the Letter transform for text 
 * 0.04 Added Toggle Text (and lower start version)
 * 0.03 Text is now printed in Bold, Added Rainbow Background function, Removed Confirm Text to make a better implementation
 * 0.02 Added Rainbow_text colour option, Fixed bug with warning_text function
 * 0.01 Initial Release - Class Created.
+
+NEXT UPDATE.... 
+I'll move the big text blocks to a separate class to make it easier to sort and add a couple more ASCII big text options.
+
 
 Author:
 * [Jorge Rolo](https://github.com/JRoloS)
