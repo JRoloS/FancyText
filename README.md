@@ -1,5 +1,5 @@
 # Fancy Text
-<p>A simple class that utilizes UNICODE escape sequences to print text in Python's Terminal Output with colors, without requiring any non-built-in library imports in your code.<br>
+<p>A simple class that utilizes ANSI  escape sequences to print text in Python's Terminal Output with colors, without requiring any non-built-in library imports in your code.<br>
 It also includes the functionality to print text as UNICODE/ASCII blocks (work in progress).<br>
 This class provides a simpler and cleaner approach to incorporating color and text effects into your program while ensuring code readability is maintained.</p>
 
