@@ -82,4 +82,4 @@ Author:
 
 
 ### License: 
-Feel free to use, copy, fork, etc. Please Mention me and If you use or fork the code, and if you come up with a neat feature, please let me know let me know.
+Feel free to use, copy, fork, etc. Please Mention me and If you use or fork the code, and if you come up with a neat feature, please let me know.
