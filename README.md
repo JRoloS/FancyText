@@ -21,7 +21,7 @@ Example for a print statement:
 
 On this initial release FancyText the class Contains the basic EGA colours: <br>
 Black, Dark Blue, Dark Green, Dark Cyan, Dark Red, Dark Magenta, Brown, Light Gray, Dark Gray, Light Blue, Light Green, Light Cyan, Light Red, Light Magenta, Yellow, White
-it's planned on the roadmap to get it to 256 to be able to properly do gradients.
+it is planned to add support for 256 colours to be able to properly do gradients.
 
 Plus Some special Text Colour modes (More will be added on future updates)
 
@@ -64,6 +64,7 @@ This is the initial Release, new features will be added in the future.
 
 ### Version History
 
+* 0.08 Added ʇxǝʇ uʍop ǝpısd∩ (Upside down Text) and More Emojis
 * 0.07 Added ASCII Emojis Class
 * 0.06 Added UNICODE BLOCK ██ letters from text 
 * 0.05 Added Big Letter of the Letter transform for text 
